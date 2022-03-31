@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Interactive rating component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; flex-basis:100%}
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
@@ -31,22 +31,21 @@
     <div class="rating">4</div>
     <div class="rating">5</div>
 
-  Submit
-  </div>
+    <button>Submit</button>
 
   <!-- Rating state end -->
+  </div>
 
   <!-- Thank you state start -->
+  <div id="thankyou">
+    <p>You selected <!-- Add rating here --> out of 5</p>
 
-  You selected <!-- Add rating here --> out of 5
+    <p>Thank you!</p>
 
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
+    <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch! </p>
 
   <!-- Thank you state end -->
-
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
