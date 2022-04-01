@@ -16,6 +16,20 @@ p {
     font-size; 15px; */
 }
 
+.star {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    border: solid;
+}
+
+#rating {
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
 #container {
     margin: auto;
     width: 375px;
