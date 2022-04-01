@@ -10,6 +10,7 @@ body {
 h1 {
     /* color: hsl(0, 0%, 100%);
     margin: 5%; */
+    font-size: 1.85em;
 }
 
 p {
@@ -21,37 +22,39 @@ p {
 button {
     width: 100%;
     height: 2.5rem;
-    margin-top: 1rem;
-    border-radius: 1.25rem;
+    border-radius: 2rem;
     border: none;
     background-color: hsl(25, 97%, 53%);
     color: white;
     font-family: 'Overpass', sans-serif;
-    /* font-size: 1.25em; */
+    font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .star {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.75rem;
+    height: 2.75rem;
     display: grid;
     place-items: center;
-    border-radius: 2rem;
+    border-radius: 2.75rem;
     border: solid;
 }
 
 #rating {
     display:grid;
     grid-template-columns: repeat(5,1fr);
+    gap: 1em;
+    margin: 1.25em 0;
+    /* border: solid; */
 }
 
 #container {
     margin: auto;
-    width: 375px;
-    padding: 2%;
+    width: 325px;
+    padding: 2em;
     border: solid;
-    border-radius: 15px;
+    border-radius: 1.75rem;
     /* background: linear-gradient(hsl(213, 19%, 18%),hsl(216, 12%, 8%)) */
 }
 
