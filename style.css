@@ -7,6 +7,7 @@ body {
     font-size: 15px;
     color: hsl(216, 12%, 54%);
     place-items: center;
+    min-width: 375px;
 }
 
 h1 {
