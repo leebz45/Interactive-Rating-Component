@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Interactive Rating Component Preview](images/screenshot.png)
+![Interactive Rating Component Preview](./images/screenshot.png)
 
 ### Links
 
