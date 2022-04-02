@@ -1,5 +1,6 @@
 let ratings = document.querySelectorAll("#rating .star"),
-    selectedElement;
+    selectedElement,
+    submitBtn = document.getElementById("submitBtn");
 
 function scoreClick(event){
     let score = document.getElementById("score"),
@@ -18,3 +19,14 @@ function scoreClick(event){
 }
 
 ratings.forEach((ele) => ele.addEventListener('click',scoreClick));
+
+submitBtn.addEventListener('click',(e) => {
+    if(selectedElement !== undefined){
+        let slide = document.getElementById("Rating_State");
+        slide.style.display = "none";
+
+        slide = document.getElementById("Thank_You_State");
+        slide.style.display = "block";
+    }
+})
+
