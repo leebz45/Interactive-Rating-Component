@@ -1,26 +1,24 @@
 body {
-    /* background-color: hsl(216, 12%, 8%); */
+    background-color: hsl(216, 12%, 8%);
     display: grid;
     margin: 0;
     height: 100vh;
     font-family: 'Overpass', sans-serif;
     font-size: 15px;
+    color: hsl(216, 12%, 54%);
 }
 
 h1 {
-    /* color: hsl(0, 0%, 100%);
-    margin: 5%; */
-    font-size: 1.85em;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.8em;
 }
 
 p {
-    /* color: hsl(217, 12%, 63%);
-    margin: 5%;
-    font-size; 15px; */
+    /* color: hsl(217, 12%, 63%); */
 }
 
 button {
-    width: 100%;
+    width: 98%;
     height: 2.5rem;
     border-radius: 2rem;
     border: none;
@@ -38,7 +36,7 @@ button {
     display: grid;
     place-items: center;
     border-radius: 2.75rem;
-    border: solid;
+    background-color: hsl(213, 19%, 18%);
 }
 
 #rating {
@@ -53,9 +51,9 @@ button {
     margin: auto;
     width: 325px;
     padding: 2em;
-    border: solid;
     border-radius: 1.75rem;
-    /* background: linear-gradient(hsl(213, 19%, 18%),hsl(216, 12%, 8%)) */
+    background: linear-gradient(hsl(213, 19%, 15%),hsl(216, 12%, 12%))
+    ;
 }
 
 #thankyou {
