@@ -66,6 +66,7 @@ button:hover{
 #container {
     margin: 1em;
     width: 325px;
+    height: 300px;
     padding: 2em;
     border-radius: 1.75rem;
     background: linear-gradient(hsl(213, 19%, 15%),hsl(216, 12%, 12%))
