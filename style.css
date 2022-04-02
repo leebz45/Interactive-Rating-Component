@@ -6,6 +6,7 @@ body {
     font-family: 'Overpass', sans-serif;
     font-size: 15px;
     color: hsl(216, 12%, 54%);
+    place-items: center;
 }
 
 h1 {
@@ -54,7 +55,7 @@ button:hover{
 }
 
 #container {
-    margin: auto;
+    margin: 1em;
     width: 325px;
     padding: 2em;
     border-radius: 1.75rem;
@@ -62,6 +63,6 @@ button:hover{
     ;
 }
 
-#thankyou {
+#Thank_You_State {
     display:none;
 }

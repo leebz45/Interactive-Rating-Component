@@ -19,45 +19,49 @@
   </style>
 </head>
 <body>
+  <main>
+    <div id="container">
+      <!-- Rating state start -->
+      <div id="Rating_State">
+        <div class="star">
+          <image src="images/icon-star.svg">
+        </div>
+        <h1>How did we do?</h1>
 
-  <!-- Rating state start -->
-  <div id="container">
-    <div class="star">
-      <image src="images/icon-star.svg">
+        <p>Please let us know how we did with your support request. All feedback is appreciated 
+            to help us improve our offering!
+        </p>
+
+        <div id="rating">
+          <div class="star">1</div>
+          <div class="star">2</div>
+          <div class="star">3</div>
+          <div class="star">4</div>
+          <div class="star">5</div>
+        </div>
+
+        <button>Submit</button>
+
+      <!-- Rating state end -->
+      </div>
+
+      <!-- Thank you state start -->
+      <div id="Thank_You_State">
+        <p>You selected <span id="score"></span> out of 5</p>
+
+        <p>Thank you!</p>
+
+        <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch! </p>
+
+      <!-- Thank you state end -->
+      </div>
     </div>
-    <h1>How did we do?</h1>
-
-    <p>Please let us know how we did with your support request. All feedback is appreciated 
-        to help us improve our offering!
-    </p>
-
-    <div id="rating">
-      <div class="star">1</div>
-      <div class="star">2</div>
-      <div class="star">3</div>
-      <div class="star">4</div>
-      <div class="star">5</div>
-    </div>
-
-    <button>Submit</button>
-
-  <!-- Rating state end -->
-  </div>
-
-  <!-- Thank you state start -->
-  <div id="thankyou">
-    <p>You selected <!-- Add rating here --> out of 5</p>
-
-    <p>Thank you!</p>
-
-    <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch! </p>
-
-  <!-- Thank you state end -->
-  </div>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Matt</a>.
+    </div>
+  </main>
+  <script src="index.js"></script>
 </body>
 </html>
