@@ -11,7 +11,8 @@ body {
 
 h1 {
     color: hsl(0, 0%, 100%);
-    font-size: 1.8em;
+    font-size: 1.9em;
+    font-weight: 400;
 }
 
 h2 {
@@ -69,8 +70,7 @@ button:hover{
     height: 300px;
     padding: 2em;
     border-radius: 1.75rem;
-    background: linear-gradient(hsl(213, 19%, 15%),hsl(216, 12%, 12%))
-    ;
+    background: linear-gradient(hsl(213, 19%, 15%),hsl(216, 12%, 12%));
 }
 
 #Rating_State {
@@ -91,6 +91,5 @@ button:hover{
     color: hsl(25, 97%, 53%);
     background-color: hsl(213, 19%, 18%);
     border-radius: 1em;
-    margin: 1.5em auto;
-    
+    margin: 1.5em auto;    
 }
