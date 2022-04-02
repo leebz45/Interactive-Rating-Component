@@ -46,6 +46,11 @@ button:hover{
     background-color: hsl(213, 19%, 18%);
 }
 
+.star.selected{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
 #rating {
     display:grid;
     grid-template-columns: repeat(5,1fr);
