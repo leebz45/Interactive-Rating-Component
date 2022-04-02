@@ -13,10 +13,6 @@ h1 {
     font-size: 1.8em;
 }
 
-p {
-    /* color: hsl(217, 12%, 63%); */
-}
-
 button {
     width: 98%;
     height: 2.5rem;
@@ -26,8 +22,14 @@ button {
     color: white;
     font-family: 'Overpass', sans-serif;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 400;
     text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+button:hover{
+    background-color:white;
+    color: hsl(25, 97%, 53%);
 }
 
 .star {
@@ -44,7 +46,11 @@ button {
     grid-template-columns: repeat(5,1fr);
     gap: 1em;
     margin: 1.25em 0;
-    /* border: solid; */
+}
+
+#rating .star:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
 }
 
 #container {
